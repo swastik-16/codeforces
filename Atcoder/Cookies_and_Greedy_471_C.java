@@ -29,8 +29,6 @@ public class Cookies_and_Greedy_471_C {
             if (r < n) {
                 rightD = Math.abs(curr - arr[r]);
             }
-
-            // If equal, choose smaller coordinate (left)
             if (leftD <= rightD) {
                 dist += leftD;
                 curr = arr[l];
@@ -43,8 +41,6 @@ public class Cookies_and_Greedy_471_C {
         }
         sc.close();
         System.out.println(dist);
-
-        }
-        
-    }
+    } 
+}
 
