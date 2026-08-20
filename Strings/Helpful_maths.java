@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class Helpful_maths {
     public static void main(String[] args) {
@@ -16,5 +15,6 @@ public class Helpful_maths {
         }
         System.out.println(c[c.length-1]);
         sc.close();
+        
     }
 }
