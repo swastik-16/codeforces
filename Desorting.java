@@ -30,5 +30,6 @@ public class Desorting {
                 System.out.println(min);
             }
         }
+        sc.close();
     }
 }
