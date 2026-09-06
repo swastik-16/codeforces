@@ -14,14 +14,12 @@ public class Alternating_subsequence {
             for (int i = 0; i < n; i++) {
                 long maxi = Long.MIN_VALUE;
                 int j = i;
-                while (j < n &&
-                      ((arr[j] > 0 && arr[i] > 0) ||
-                       (arr[j] < 0 && arr[i] < 0))) {
+                while (j < n && ((arr[j] > 0 && arr[i] > 0) ||(arr[j] < 0 && arr[i] < 0))) {
                     maxi = Math.max(maxi, arr[j]);
                     j++;
                 }
                 ans += maxi;
-                i = j - 1;   
+                i = j - 1;
             }
             System.out.println(ans);
         }

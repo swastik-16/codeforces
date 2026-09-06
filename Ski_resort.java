@@ -4,7 +4,7 @@ public class Ski_resort {
     public static long combinations(int n, long r) {
     if (r > n || r < 0) return 0;
 
-    r = Math.min(r, n - r); 
+    r = Math.min(r, n - r);
 
     long result = 1;
 
