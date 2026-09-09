@@ -60,10 +60,7 @@ public class Not_divisible_170_D {
             }
 
             // Mark all larger multiples of x as invalid
-            for (int multiple = 2 * x;
-                 multiple <= maxValue;
-                 multiple += x) {
-
+            for (int multiple = 2 * x;multiple <= maxValue;multiple += x) {
                 if (freq[multiple] > 0) {
                     invalid[multiple] = true;
                 }
