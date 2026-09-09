@@ -1,3 +1,5 @@
+package Atcoder;
+
 import java.io.*;
 
 public class Not_divisible_170_D {
