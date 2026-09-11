@@ -24,7 +24,6 @@ public class NumberOfIntersectingDiagonals {
 
         int t = sc.nextInt();
 
-        long inv2 = power(2, MOD - 2);
         long inv24 = power(24, MOD - 2);
 
         while (t-- > 0) {
