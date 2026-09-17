@@ -1,5 +1,3 @@
-package AlgoZenith;
-
 import java.util.Scanner;
 
 public class Everyone_likes_good_arrays {

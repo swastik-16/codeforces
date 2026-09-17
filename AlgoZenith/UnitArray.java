@@ -1,5 +1,3 @@
-package AlgoZenith;
-
 import java.util.Scanner;
 
 public class UnitArray {

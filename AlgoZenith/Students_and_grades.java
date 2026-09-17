@@ -1,4 +1,4 @@
-package AlgoZenith;
+
 
 import java.util.HashSet;
 import java.util.Scanner;

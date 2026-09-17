@@ -1,4 +1,3 @@
-package AlgoZenith;
 
 import java.util.Scanner;
 
